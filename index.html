@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Juego de Palabras Desordenadas Personalizado -->
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Juego de Palabras Desordenadas</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/words.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+        <h2>Juego de Palabras para Lu     </h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">Pista: <span></span></p>
+                <p class="time">Tiempo Restante: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Ingresa una palabra válida">
+            <div class="buttons">
+                <button class="refresh-word">Nueva Palabra</button>
+                <button class="check-word">Verificar Palabra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor para las alertas -->
+    <div class="alert"></div> 
+  </body>
+</html>
